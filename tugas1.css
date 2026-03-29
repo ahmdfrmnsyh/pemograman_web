@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e5a1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-inner {
+    background-color: #26793e;
+    border-radius: 12px;
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.profile-name {
+    color: white;
+}
+
+.profile-bio {
+    color: #a8b8d8;
+}
+
+.btn-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    width: 100%;
+    padding: 11px 16px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-blue {
+    background-color: #4a7fd4;
+}
+
+.btn-red {
+    background-color: #e0394a;
+}
+
+.para {
+    text-align: center;
+    color: white
+}
